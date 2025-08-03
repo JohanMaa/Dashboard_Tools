@@ -32,6 +32,7 @@ app.post('/api/file-hash-checker', async (req, res) => {
   }
 });
 
+
 // Endpoint uji coba
 app.get('/api/health', (req, res) => {
   res.json({ status: 'Server berjalan' });
